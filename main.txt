@@ -1,0 +1,84 @@
+//  "JAVASCRIPT MASTERY COURSE - JSMASTERY PRO (PAID COURSE - ALL MODULES -ANSHUKING)"
+
+
+
+//Learning JS Variables
+
+var name="Welcome To learn Javascript";
+
+console.log(name);
+
+ const $name2="Hello World"
+ name2="Bye World"
+console.log($name2)
+
+
+//Data types in JS
+
+/* 1.Number
+   2.string
+   3.Boolean
+   4.Bigint
+   5.null
+   6.undefined
+   7.special
+   8.Objects (Specially used in JS)
+   
+ */
+
+// strings in JS
+
+let user="Jane";
+let hy='Hello';
+let ticks=`${hy },${user} Welcome to my Page `;
+console.log(ticks)
+
+
+let check=`${2+2}`;
+console.log(check);
+
+// Numbers in JS
+
+let wholeNumber=5;
+let decimalNumber=0.36969;
+console.log(wholeNumber);
+console.log(decimalNumber);
+
+// operations on Numbers
+
+let num1=56;
+let num2=48;
+ 
+let result_num=num1/num2;
+
+console.log(result_num);
+console.log(typeof(result_num));
+
+//Booleans
+
+//true
+//false
+
+let isIntelligent=true;
+console.log(isIntelligent);
+
+//Try change its value and get another resluts,
+
+let isCool=false;
+
+if(isCool){
+    console.log("hey Man, you are cool");
+}
+else{
+    console.log("You, Stupid..");
+}
+
+
+//null 
+//shows nothing/empty
+
+let age=null;
+console.log(age);
+
+
+
