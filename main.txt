@@ -1,6 +1,6 @@
 //  "JAVASCRIPT MASTERY COURSE - JSMASTERY PRO (PAID COURSE - ALL MODULES -ANSHUKING)"
 
-
+//BASICS OF JS IN SINGLE FILE
 
 //Learning JS Variables
 
@@ -74,11 +74,100 @@ else{
 }
 
 
+
 //null 
 //shows nothing/empty
 
 let age=null;
 console.log(age);
+
+
+
+// Operators - TO perform Operations on Variables
+
+//Arithmetic Operators=+-*/
+
+let a=56;
+let b=46;
+
+result_add=a+b;
+ console.log(result_add)
+ 
+ result_sub=a-b;
+ 
+ console.log(result_sub);
+
+result_mul=a*b;
+console.log(result_mul);
+
+result_div=a/b;
+console.log(result_div);
+ 
+ result_exp=a**b;
+ console.log(result_exp);
+ 
+ result_mod=a%b;
+ console.log(result_mod);
+ 
+ 
+ 
+//Comparison Operators-compare and return true/false
+
+let p=45;
+let q=79;
+
+console.log(p>=b);
+
+/*let p=45;
+  let q=79;
+
+console.log(p<=q); returns true  */
+
+let r=10;
+let s=10
+
+// Check equality == , ===
+console.log(r==s);  
+
+console.log("hello"=="hello");
+
+//Doesn't compare datad types
+console.log(5=='5');
+
+//Checks data types also
+console.log(5==="5");
+
+
+// Logical Operators AND OR NOT
+
+// and = && checks both the true 
+console.log(true && true);
+console.log(true && false);
+
+// or =|| checks only one is true
+console.log(true||false);
+console.log(false||false);
+
+//not =! reverse the boolean value
+console.log(!true);
+
+// Assignment operator - += , -= , *= , /=
+
+let num3= 56;
+
+num3+=4;//returns 60
+num3-=5;//returns 55
+num3*=10//returns 550
+num3/=10//returns 55
+
+console.log(num3);
+
+let str="Hy";
+str+=", Ayush !";
+
+console.log(str);
+
+
 
 
 
