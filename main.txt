@@ -167,6 +167,34 @@ str+=", Ayush !";
 
 console.log(str);
 
+// FUNCTIONS IN JS
+
+// A BLOCK OF CODE THAT IS USED TO PERFORM SPECIFIC TASKS
+
+// A FUNCTION DECLARATION(defining the function)
+
+// A FUNCTION CALL(executing the function)
+
+function square(Number) {
+    return Number*Number;
+}
+
+// A FUNCTION CALL(executing the function)
+
+function square(Number) {
+    return Number*Number;
+}
+
+let result=square(6);
+
+
+// A FUNCTION CALL(executing the function)
+
+function square(Number) {
+    return Number*Number;
+}
+
+let result=square(6);
 
 
 
