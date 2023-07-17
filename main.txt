@@ -196,6 +196,55 @@ function square(Number) {
 
 let result=square(6);
 
+// Scope in JS
 
+const name='Harry Potter';
+
+const function1 = () => {
+    // const name='Harry';
+    console.log(name);
+}
+
+
+const function2 = () => {
+    // const name='Potter';
+    console.log(name);
+}
+
+function1();
+function2();
+
+
+const name='John';   // Global Scope
+
+const logname = () => {
+    console.log(name);  //Local Scope
+}
+
+
+logname();
+
+
+// const name2='Harry';
+ 
+const myfuction=() =>{
+    const name2='Potter';
+    
+}
+ 
+console.log(name2);
+ 
+myfuction();
+
+// Hoisting in Javascript
+
+const age=56;
+console.log(age);
+
+//Example
+
+hoist='World!';
+console.log(hoist);
+let hoist='hello';
 
 
